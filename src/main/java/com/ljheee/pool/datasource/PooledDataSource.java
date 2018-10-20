@@ -213,6 +213,7 @@ public class PooledDataSource implements DataSource {
         }
     }
 
+    // TODO (定时)回收空闲线程
 
     /**
      * 下面这些 是实现接口的方法
